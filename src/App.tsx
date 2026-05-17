@@ -417,10 +417,6 @@ export default function App() {
 
             <div className="space-y-6">
               <div className="text-xs text-gray-500">
-                <span className="block uppercase font-bold text-gray-400 mb-1">Contact Us</span>
-                7066693293
-              </div>
-              <div className="text-xs text-gray-500">
                 <span className="block uppercase font-bold text-gray-400 mb-1">Available Time</span>
                 11:00 AM - 11:30 PM
               </div>
@@ -443,7 +439,7 @@ export default function App() {
           </div>
           
           <div className="pt-8 border-t border-gray-800 flex flex-col md:flex-row items-center justify-between gap-4 text-[10px] text-gray-600 uppercase tracking-wider font-bold">
-            <p>&copy; 2024 Anand Bar & Restro. Contact - 7066693293</p>
+            <p>&copy; 2024 Anand Bar & Restro.</p>
             <p>
               Powered by{' '}
               <a 
