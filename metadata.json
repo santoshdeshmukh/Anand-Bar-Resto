@@ -1,0 +1,8 @@
+{
+  "name": "Anand Bar & Restro",
+  "description": "Premium dining experience with easy online ordering via WhatsApp, table QR codes, and home delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

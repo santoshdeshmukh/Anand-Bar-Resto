@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[#0f0f12] text-gray-200 selection:bg-amber-500 selection:text-black;
+  }
+}
+
+.glass {
+  @apply bg-[#1a1a1e] border-b border-gray-800;
+}
+
+.card-surface {
+  @apply bg-[#1a1a1e] border border-gray-800 rounded-2xl overflow-hidden;
+}
+
+.input-surface {
+  @apply bg-[#2a2a30] border-none rounded-lg focus:ring-2 focus:ring-amber-500 transition-all;
+}
